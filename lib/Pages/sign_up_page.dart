@@ -90,7 +90,7 @@ class SignUpPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 15),
                 MyTextField(
-                  controller: passwordController,
+                  controller: confirmpasswordController,
                   hintText: 'Confirm Password',
                   obscureText: true,
                 ),
