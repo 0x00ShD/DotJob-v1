@@ -84,18 +84,6 @@ class SignUpPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 15),
                 MyTextField(
-                  controller: businessphonenumberController,
-                  hintText: 'Business Phone Number',
-                  obscureText: false,
-                ),
-                const SizedBox(height: 15),
-                MyTextField(
-                  controller: businessaddressController,
-                  hintText: 'Business Address',
-                  obscureText: false,
-                ),
-                const SizedBox(height: 15),
-                MyTextField(
                   controller: passwordController,
                   hintText: 'Password',
                   obscureText: true,
@@ -105,6 +93,18 @@ class SignUpPage extends StatelessWidget {
                   controller: passwordController,
                   hintText: 'Confirm Password',
                   obscureText: true,
+                ),
+                const SizedBox(height: 15),
+                MyTextField(
+                  controller: businessphonenumberController,
+                  hintText: 'Business Phone Number',
+                  obscureText: false,
+                ),
+                const SizedBox(height: 15),
+                MyTextField(
+                  controller: businessaddressController,
+                  hintText: 'Business Address',
+                  obscureText: false,
                 ),
                 const SizedBox(height: 15),
                 MyTextField(
