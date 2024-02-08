@@ -1,16 +1,3 @@
-# gradution_project
+# Dot Job
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Dot Job is an innovative mobile application designed to streamline the job search process for individuals seeking employment opportunities. Built with Flutter, Google's open-source UI software development kit, this application offers a user-friendly interface and robust features to connect job seekers with potential employers seamlessly.
