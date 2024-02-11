@@ -38,7 +38,7 @@ class ShowAllCompany extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          Text('Show all company',
+                          Text('Show all companies',
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 20,
