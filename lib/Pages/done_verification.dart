@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gradution_project/Pages/show_all_comapny.dart';
 
 class DoneVerification extends StatelessWidget {
   const DoneVerification({super.key});
@@ -56,10 +57,10 @@ class DoneVerification extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 50),
-                const Column(
+                Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Padding(
+                    const Padding(
                       padding: EdgeInsets.all(20.0),
                       child: Center(
                         child: Text(
@@ -72,13 +73,31 @@ class DoneVerification extends StatelessWidget {
                             )),
                       ),
                     ),
-                    Text('Let\'s go',
+                    const Text('Let\'s go',
                         style: TextStyle(
                           color: Color.fromARGB(255, 28, 196, 151),
                           fontSize: 20,
                           fontFamily: 'CarterOne',
                           //fontWeight: FontWeight.bold,
                         )),
+                    TextButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) {
+                            return ShowAllCompany();
+                          }),
+                        );
+                      },
+                      child: const Text(
+                        'Show all company',
+                        style: TextStyle(
+                          color: Colors.blue,
+                          fontSize: 15,
+                          fontFamily: 'CarterOne',
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ]),
